@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppin);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-image: url(images/bg\ \(1\).png);
+    background-size: contain;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 400px; 
+    width: 100%;
+    box-shadow: 0 5px, 10px, rgba(0,0,0,0,3);
+    color: white;
+}
+.logo img{
+    width: 50px;
+
+}
+.logo h5{
+    font-size: 200px;
+    font-weight: 400;
+    color: white ;
+  
+}
+.logo, header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.chip{
+   width: 60px;
+}   
+.card h6{
+    font-size: 10px;
+    font-weight: 400;
+}
+.number{
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.name{
+    margin-top: 20px; 
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.redo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+ 
+
+
